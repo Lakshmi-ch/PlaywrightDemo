@@ -1,7 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { bookRoomForm } from 'C:/JavaScriptPrograms/PlaywrightDemo/pages/home_page_bookingform'
-import { contactForm } from 'C:/JavaScriptPrograms/PlaywrightDemo/pages/home_page_bookingform'
-
+import { bookRoomForm, contactForm } from '../pages/home_page_bookingform'
 import bookingformData from '../data/bookingform.json';
 import contactformData from '../data/contactform.json';
 
