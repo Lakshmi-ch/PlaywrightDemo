@@ -5,7 +5,14 @@
     "bookingformEmail": "//input[@name = 'email']",
     "bookingformPhone": "//input[@name = 'phone']",
     "bookButton": "//button[text()='Book']",
-    "errorMessage": "div.alert.alert-danger"
+    "errorMessage": "div.alert.alert-danger",
+    "contactformFirstName": "//input[@data-testid='ContactName']",
+    "contactformEmail": "//input[@data-testid='ContactEmail']",
+    "contactformPhone": "//input[@data-testid='ContactPhone']",
+    "contactformSubject": "//input[@data-testid='ContactSubject']",
+    "contactformMessage": "//textarea[@data-testid='ContactDescription']",
+    "submitButton": "//button[text()='Submit']",
+    "subitMessage": "//div[@class='row contact']"  
 
     }
 

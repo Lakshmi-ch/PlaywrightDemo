@@ -1,0 +1,19 @@
+{
+    "valid": {
+    "firstName": "Lakshmi",
+    "email": "lakshmi@test.com",
+    "phone": "123456789109",
+    "subject": "Test room booking",
+    "message": "I am not able to book from the portal. Please assist to book the Test room. Thanks",
+    "expectedMessage": "Thanks for getting in touch"
+},
+    "invalid":{ 
+    "firstName": "",
+    "email": "",
+    "phone": "",
+    "subject": "",
+    "message": "",
+    "expectedMessage": "Name may not be blank"
+    }
+    
+}
