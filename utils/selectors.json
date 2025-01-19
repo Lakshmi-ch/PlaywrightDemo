@@ -1,0 +1,12 @@
+{
+    "selectors": {
+    "bookingformFirstName": "//input[@name = 'firstname']",
+    "bookingformLastName": "//input[@name = 'lastname']",
+    "bookingformEmail": "//input[@name = 'email']",
+    "bookingformPhone": "//input[@name = 'phone']",
+    "bookButton": "//button[text()='Book']",
+    "errorMessage": "div.alert.alert-danger"
+
+    }
+
+}

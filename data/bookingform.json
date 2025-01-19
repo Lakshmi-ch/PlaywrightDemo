@@ -1,0 +1,19 @@
+{
+    "valid": {
+    "firstName": "Lakshmi",
+    "lastName": "Cho",
+    "email": "lakshmi@test.com",
+    "phone": "123456789109",
+    "expectedErrormessage": "Firstname should not be blank",
+    "expected": false
+},
+    "invalid":{ 
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "phone": "",
+    "expectedErrormessage": "Firstname should not be blank",
+    "expected": true
+    }
+    
+}
